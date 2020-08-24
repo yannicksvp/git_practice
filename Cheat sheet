@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <link href="styles.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>HTML Table References</h1>
+        <table>
+            <thead>
+                <tr>
+                  <th>Tag</th>
+                  <th>Name</th>
+                  <th>Description</th>>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>&lt;table&gt;</td>
+                  <td>table</td>
+                  <td>The wrapper element for all HTML tables.</td>
+                </tr>
+                <tr>
+                  <td>&lt;thead&gt;</td>
+                  <td>Table head</td>
+                  <td>The set of rows defining the column headers in a table.</td>
+                <tr>
+                  <td>&lt;tbody&gt;</td>
+                  <td>Table body</td>
+                  <td>The set of rows containing actual table data.</td>
+                </tr>
+                <tr>
+                  <td>&lt;tr&gt;</td>
+                  <td>Table Row</td>
+                  <td>The table row container.</td>
+                </tr>
+                <tr>
+                  <td>&lt;td&gt;</td>
+                  <td>Table Data</td>
+                  <td>The table row container.</td>
+                </tr>
+                <tr>
+                  <td>&lt;tfoot&gt;</td>
+                  <td>Table Foot</td>
+                  <td>the set of rows defining the footer in a table.</td>
+                </tr>
+              </tbody> 
+        </table> 
+
+        <h3>Table Attributes</h3>  
+        <table>
+          <thead>
+              <tr>
+                <th>Attribute</th>
+                <th>Name</th>
+                <th>Description</th>>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>colspan</td>
+                <td>Column Span</td>
+                <td>Defines how many columns a td element should span.</td>
+              </tr>     
+              <tr>
+                <td>rowspan</td>
+                <td>Row Span</td>
+                <td>Defines how many rows a td element should span.</td>
+              </tr>   
+            </tbody>
+
+        </table>
+        
+        <h2>Media</h2 >
+        <table>
+          <thead>
+            <tr>
+              <th>Element</th>
+              <th>Name</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>&lt;video&gt;</td>
+              <td>Video</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>&lt;img&gt;</td>
+              <td>Image</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>&lt;embed&gt;</td>
+              <td>Embed</td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+        <h3>Media Attributes</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Attributes</th>
+              <th>Name</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>src=""</td>
+              <td>Source</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>alt=""</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>type=""</td>
+              <td></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+
+    </body>
+</html>
+
+<!-- /Users/macbook/Desktop/Code/Projects/Codecademy/Cheat sheet/index.html -->
+
+<!--CSS-->
+table {
+    height: 40%;
+    left: 10%;
+    margin: 20px auto;
+    overflow-y: scroll;
+    position: static;
+    width: 80%;
+  }
+  thead th {
+    background: #52b7ed;
+    color: #FFF;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  th, td {
+    font-size: 19px;
+    font-family: monospace;
+   
+  }
+
+  
